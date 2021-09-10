@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <H1>Hvor mange CM er en Meter?</H1>
+    <div id="button">
+        <button onclick="Svar()">1</button>
+        <button onclick="Svar()">10</button>
+        <button onclick="Svar1()">100</button>
+        <button onclick="Svar()">1000</button>
+    </div>
+    <hr>
+
+    <div id="reset">
+        <button onclick="reset()">RESET</button>
+
+    </div>
+    
+    <p id="sp1"></p>
+
+    <div> 
+
+    </div>
+    
+<script>
+    function Svar() {
+        document.getElementById('sp1').innerHTML = 'Feil';
+    }
+    function Svar1(){
+        document.getElementById('sp1').innerHTML = "<img src = pepe.jpg>";
+    }
+    function reset(){
+        document.getElementById('sp1').innerHTML = ' ';
+    }
+
+
+</script>
+
+</body>
+</html>
